@@ -17,12 +17,14 @@
 		969270E316D80F7A00E31624 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969270E216D80F7A00E31624 /* Default@2x.png */; };
 		969270E516D80F7A00E31624 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969270E416D80F7A00E31624 /* Default-568h@2x.png */; };
 		969270E816D80F7A00E31624 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969270E616D80F7A00E31624 /* MainStoryboard.storyboard */; };
-		969270EB16D80F7A00E31624 /* ERSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969270EA16D80F7A00E31624 /* ERSViewController.m */; };
 		969270F316D80F7B00E31624 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969270F216D80F7B00E31624 /* SenTestingKit.framework */; };
 		969270F416D80F7B00E31624 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969270CE16D80F7A00E31624 /* UIKit.framework */; };
 		969270F516D80F7B00E31624 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969270D016D80F7A00E31624 /* Foundation.framework */; };
 		969270FD16D80F7B00E31624 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 969270FB16D80F7B00E31624 /* InfoPlist.strings */; };
 		9692710016D80F7B00E31624 /* SubjectSpecialistsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969270FF16D80F7B00E31624 /* SubjectSpecialistsTests.m */; };
+		9692710B16D80FBA00E31624 /* SpecialistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9692710A16D80FBA00E31624 /* SpecialistsViewController.m */; };
+		9692710E16D8133B00E31624 /* Specialist.m in Sources */ = {isa = PBXBuildFile; fileRef = 9692710D16D8133B00E31624 /* Specialist.m */; };
+		9692711116D8153300E31624 /* Specialists.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9692711016D8153300E31624 /* Specialists.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +52,17 @@
 		969270E216D80F7A00E31624 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		969270E416D80F7A00E31624 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		969270E716D80F7A00E31624 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		969270E916D80F7A00E31624 /* ERSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERSViewController.h; sourceTree = "<group>"; };
-		969270EA16D80F7A00E31624 /* ERSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERSViewController.m; sourceTree = "<group>"; };
 		969270F116D80F7B00E31624 /* SubjectSpecialistsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubjectSpecialistsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		969270F216D80F7B00E31624 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		969270FA16D80F7B00E31624 /* SubjectSpecialistsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubjectSpecialistsTests-Info.plist"; sourceTree = "<group>"; };
 		969270FC16D80F7B00E31624 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		969270FE16D80F7B00E31624 /* SubjectSpecialistsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectSpecialistsTests.h; sourceTree = "<group>"; };
 		969270FF16D80F7B00E31624 /* SubjectSpecialistsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectSpecialistsTests.m; sourceTree = "<group>"; };
+		9692710916D80FBA00E31624 /* SpecialistsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecialistsViewController.h; path = ../SpecialistsViewController.h; sourceTree = "<group>"; };
+		9692710A16D80FBA00E31624 /* SpecialistsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecialistsViewController.m; path = ../SpecialistsViewController.m; sourceTree = "<group>"; };
+		9692710C16D8133B00E31624 /* Specialist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Specialist.h; sourceTree = "<group>"; };
+		9692710D16D8133B00E31624 /* Specialist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Specialist.m; sourceTree = "<group>"; };
+		9692711016D8153300E31624 /* Specialists.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Specialists.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +122,12 @@
 		969270D416D80F7A00E31624 /* SubjectSpecialists */ = {
 			isa = PBXGroup;
 			children = (
+				9692710F16D814D200E31624 /* Model */,
+				9692710916D80FBA00E31624 /* SpecialistsViewController.h */,
+				9692710A16D80FBA00E31624 /* SpecialistsViewController.m */,
 				969270DD16D80F7A00E31624 /* ERSAppDelegate.h */,
 				969270DE16D80F7A00E31624 /* ERSAppDelegate.m */,
 				969270E616D80F7A00E31624 /* MainStoryboard.storyboard */,
-				969270E916D80F7A00E31624 /* ERSViewController.h */,
-				969270EA16D80F7A00E31624 /* ERSViewController.m */,
 				969270D516D80F7A00E31624 /* Supporting Files */,
 			);
 			path = SubjectSpecialists;
@@ -137,6 +143,7 @@
 				969270E016D80F7A00E31624 /* Default.png */,
 				969270E216D80F7A00E31624 /* Default@2x.png */,
 				969270E416D80F7A00E31624 /* Default-568h@2x.png */,
+				9692711016D8153300E31624 /* Specialists.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,6 +165,15 @@
 				969270FB16D80F7B00E31624 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9692710F16D814D200E31624 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9692710D16D8133B00E31624 /* Specialist.m */,
+				9692710C16D8133B00E31624 /* Specialist.h */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +253,7 @@
 				969270E316D80F7A00E31624 /* Default@2x.png in Resources */,
 				969270E516D80F7A00E31624 /* Default-568h@2x.png in Resources */,
 				969270E816D80F7A00E31624 /* MainStoryboard.storyboard in Resources */,
+				9692711116D8153300E31624 /* Specialists.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +290,8 @@
 			files = (
 				969270DB16D80F7A00E31624 /* main.m in Sources */,
 				969270DF16D80F7A00E31624 /* ERSAppDelegate.m in Sources */,
-				969270EB16D80F7A00E31624 /* ERSViewController.m in Sources */,
+				9692710B16D80FBA00E31624 /* SpecialistsViewController.m in Sources */,
+				9692710E16D8133B00E31624 /* Specialist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

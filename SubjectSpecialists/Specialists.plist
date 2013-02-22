@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Karl Gudmunds</string>
+		<key>Title</key>
+		<string>Branch Chief, ADB</string>
+		<key>Phone</key>
+		<string>202-694-5029</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Scott Chamberlin</string>
+		<key>Title</key>
+		<string>Associate Director, ISD</string>
+		<key>Phone</key>
+		<string>202-694-5004</string>
+	</dict>
+</array>
+</plist>
